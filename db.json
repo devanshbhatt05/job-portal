@@ -1,0 +1,28 @@
+{
+    "jobs": [
+    {
+        "id": 1,
+        "title": "Software Developer",
+        "location" : "Kolkata",
+        "lpa": 5
+    },
+    {
+        "id": 2,
+        "title": "Designer",
+        "location" : "Kolkata",
+        "lpa": 3
+    },
+    {
+        "id": 3,
+        "title": "Developer",
+        "location" : "Kolkata",
+        "lpa": 6
+    },
+    {
+        "id": 4,
+        "title": "Software testing",
+        "location" : "Kolkata",
+        "lpa": 4
+    }
+]
+}
