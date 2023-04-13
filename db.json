@@ -1,0 +1,32 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "uname": "Novamaster 69",
+        "pass": "qwertyuiop"
+      }
+      
+    ],
+    "joblist":[
+      {
+        "id":1,
+        "postname":"Associate Software Engineer",
+        "salary":"4LPA"
+      },
+      {
+        "id":2,
+        "postname":"Graphic Designer",
+        "salary":"2.5LPA"
+      },
+      {
+        "id":3,
+        "postname":"DATA analyst",
+        "salary":"4LPA"
+      },
+      {
+        "id":4,
+        "postname":"Manager",
+        "salary":"6LPA"
+      }
+    ]
+  }
