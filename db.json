@@ -1,28 +1,32 @@
 {
-    "jobs": [
-    {
+    "users": [
+      {
         "id": 1,
-        "title": "Software Developer",
-        "location" : "Kolkata",
-        "lpa": 5
-    },
-    {
-        "id": 2,
-        "title": "Designer",
-        "location" : "Kolkata",
-        "lpa": 3
-    },
-    {
-        "id": 3,
-        "title": "Developer",
-        "location" : "Kolkata",
-        "lpa": 6
-    },
-    {
-        "id": 4,
-        "title": "Software testing",
-        "location" : "Kolkata",
-        "lpa": 4
-    }
-]
-}
+        "uname": "rohitjha",
+        "pass": "123456"
+      }
+      
+    ],
+    "joblist":[
+      {
+        "id":1,
+        "postname":"Associate Software Engineer",
+        "salary":"4LPA"
+      },
+      {
+        "id":2,
+        "postname":"Graphic Designer",
+        "salary":"2.5LPA"
+      },
+      {
+        "id":3,
+        "postname":"DATA analyst",
+        "salary":"4LPA"
+      },
+      {
+        "id":4,
+        "postname":"Manager",
+        "salary":"6LPA"
+      }
+    ]
+  }

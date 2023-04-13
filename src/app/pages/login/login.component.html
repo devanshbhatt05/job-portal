@@ -1,35 +1,32 @@
+<div class="container">
 
-<!-- <div>
-    <h2>Login</h2>
-    <form onsubmit="">
-        <div>
-        <label>UserName</label>
-        <input type="text" name="uname" required>
+    <form id="signup">
+
+        <div class="header">
+        
+            <h3>Sign Up</h3>
+            
+            <p>You want to fill out this form</p>
+            
         </div>
-        <div>
-            <label>Password</label>
-            <input type="text" name="upass" required>
+        
+        <div class="sep"></div>
+
+        <div class="inputs">
+        
+            <input type="email" placeholder="e-mail" autofocus />
+        
+            <input type="password" placeholder="Password" />
+            
+            <div class="checkboxy">
+                <input name="cecky" id="checky" value="1" type="checkbox" /><label class="terms">I accept the terms of use</label>
+            </div>
+            
+            <a id="submit" href="#">SIGN UP FOR INVITE NOW</a>
+        
         </div>
-        <input type="submit" value="Submit">
+
     </form>
-</div> -->
 
-
-<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-  <div>
-    <label for="email">Email</label>
-    <input type="email" id="email" formControlName="email" />
-    <div *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
-      
-      
-    </div>
-  </div>
-  <div>
-    <label for="password">Password</label>
-    <input type="password" id="password" formControlName="password" />
-    <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
-    
-    </div>
-  </div>
-  <button type="submit">Login</button>
-</form>
+</div>
+​

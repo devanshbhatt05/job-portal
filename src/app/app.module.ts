@@ -1,24 +1,35 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
-import {HttpClientModule} from '@angular/common/http';
-import {ReactiveFormsModule} from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './pages/login/login.component';
-import { ListingsComponent } from './pages/listings/listings.component';
-import { RegistrationComponent } from './pages/registration/registration.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
+import { LoginComponent } from './component/login/login.component';
+import { RegistrationComponent } from './component/registration/registration.component';
+import { JoblistingComponent } from './component/joblisting/joblisting.component';
+import { RouterModule, Routes } from '@angular/router';
+import { JobshowComponent } from './component/jobshow/jobshow.component';
+
+
+const appRoute:Routes=[
+  {path:'Home', component:LoginComponent},
+  {path:'Register', component:RegistrationComponent},
+  {path:'JobListing',component:JoblistingComponent}
+]
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
     LoginComponent,
-    ListingsComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    JoblistingComponent,
+    JobshowComponent
   ],
   imports: [
-    BrowserModule, ReactiveFormsModule,HttpClientModule
+    BrowserModule,
+    HttpClientModule,
+    RouterModule.forRoot(appRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
